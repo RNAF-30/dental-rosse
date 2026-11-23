@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Dental Rosse: soluciones de prótesis dentales para pacientes y clínicas odontológicas.">
+<meta name="theme-color" content="#123d43">
+<title>Dental Rosse | Prótesis dentales</title>
+<style>
+:root{--teal:#123d43;--teal2:#205d61;--gold:#c6a66b;--cream:#f8f7f3;--ink:#263b40}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;background:var(--cream);color:var(--ink)}
+header{position:sticky;top:0;z-index:5;background:var(--teal);color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.logo{font-weight:800;letter-spacing:2px;font-size:23px}.logo span{color:var(--gold)}
+nav{display:flex;gap:18px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-size:14px}
+.hero{padding:105px 8%;background:linear-gradient(115deg,#123d43,#24666a);color:white}
+.hero small{letter-spacing:3px;color:var(--gold)}h1{font-size:clamp(40px,6vw,68px);max-width:760px;margin:22px 0}
+.hero p{max-width:620px;line-height:1.8;color:#e5eeee;font-size:18px}
+.btn{display:inline-block;background:var(--gold);color:#183c40;border:0;border-radius:4px;padding:14px 22px;font-weight:bold;text-decoration:none;cursor:pointer}
+section{padding:72px 8%}.heading{text-align:center;margin:0 auto 36px}.heading h2{color:var(--teal);font-size:32px;margin:0 0 10px}.heading p{color:#6b7b7c}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:white;border-radius:12px;overflow:hidden;box-shadow:0 5px 22px #123d4310}
+.visual{height:160px;background:linear-gradient(135deg,#dceae7,#b8cfca);display:grid;place-items:center;font-size:60px}
+.content{padding:20px}.content h3{margin:0 0 10px;color:var(--teal)}.content p{line-height:1.6;color:#657577;font-size:14px}
+.price{font-size:20px;color:var(--teal2);font-weight:bold;margin:14px 0}
+.about,.contact{background:#e9efeb}.about p{max-width:760px;text-align:center;margin:auto;line-height:1.9}
+form{max-width:680px;margin:auto;background:white;padding:28px;border-radius:12px}
+label{display:block;font-size:14px;font-weight:bold;color:var(--teal);margin-top:12px}
+input,select,textarea{width:100%;padding:13px;margin-top:7px;border:1px solid #ccd9d5;border-radius:5px;font:inherit}
+textarea{min-height:100px}button:disabled{opacity:.6}
+.notice{font-size:12px;color:#667;line-height:1.6;margin:14px 0}
+footer{background:var(--teal);color:white;text-align:center;padding:30px}
+.whatsapp{position:fixed;right:18px;bottom:18px;background:#1ca765;color:white;padding:14px 20px;border-radius:30px;text-decoration:none;font-weight:bold}
+.admin-wrap{background:#fff}.admin-panel{max-width:900px;margin:auto}.admin-panel details{border:1px solid #dbe4e0;padding:18px;border-radius:8px}
+.admin-panel input,.admin-panel select{margin-bottom:10px}.admin-item{padding:12px;border-bottom:1px solid #ddd;display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}
+.hidden{display:none!important}.status{font-size:12px;color:#526}
+@media(max-width:650px){header{justify-content:center}nav{justify-content:center}.hero{padding:75px 7%}section{padding:55px 6%}}
+</style>
+</head>
+<body>
+<header><div class="logo">DENTAL <span>ROSSE</span></div><nav>
+<a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#catalogo">Catálogo</a><a href="#galeria">Galería</a><a href="#pedidos">Pedidos</a>
+</nav></header>
+<main>
+<div class="hero" id="inicio"><small>LABORATORIO DE PRÓTESIS DENTALES</small><h1>La excelencia en cada sonrisa.</h1>
+<p>Soluciones protésicas personalizadas para pacientes y clínicas dentales. Precisión, estética y compromiso en cada trabajo.</p><p style="margin-top:28px"><a class="btn" href="#pedidos">Solicitar información</a></p></div>
+<section id="servicios"><div class="heading"><h2>Nuestros servicios</h2><p>Soluciones diseñadas para cada necesidad.</p></div>
+<div class="grid">
+<article class="card"><div class="visual">🦷</div><div class="content"><h3>Prótesis fijas</h3><p>Restauraciones protésicas personalizadas.</p></div></article>
+<article class="card"><div class="visual">😁</div><div class="content"><h3>Prótesis removibles</h3><p>Alternativas adaptadas a cada caso.</p></div></article>
+<article class="card"><div class="visual">✨</div><div class="content"><h3>Coronas y puentes</h3><p>Atención al detalle y acabado.</p></div></article>
+<article class="card"><div class="visual">🔩</div><div class="content"><h3>Prótesis sobre implantes</h3><p>Soluciones protésicas para implantes.</p></div></article>
+</div></section>
+<section id="catalogo"><div class="heading"><h2>Catálogo de prótesis</h2><p>Consulta nuestros productos y solicita información.</p></div><div class="grid" id="products"><p>Cargando catálogo…</p></div></section>
+<section id="galeria"><div class="heading"><h2>Galería de trabajos</h2><p>Próximamente: fotografías de trabajos reales de Dental Rosse.</p></div>
+<div class="grid"><div class="card"><div class="visual">🦷</div><div class="content"><h3>Restauraciones</h3><p>Espacio para fotografías autorizadas.</p></div></div>
+<div class="card"><div class="visual">✨</div><div class="content"><h3>Estética dental</h3><p>Espacio para fotografías autorizadas.</p></div></div>
+<div class="card"><div class="visual">😁</div><div class="content"><h3>Prótesis removibles</h3><p>Espacio para fotografías autorizadas.</p></div></div></div></section>
+<section class="about"><div class="heading"><h2>Sobre Dental Rosse</h2></div><p>Trabajamos con dedicación y compromiso para ofrecer soluciones de prótesis dentales de calidad a pacientes y profesionales odontológicos. Cada caso debe ser indicado y supervisado por un profesional dental habilitado.</p></section>
+<section class="contact" id="pedidos"><div class="heading"><h2>Solicita información o realiza un pedido</h2><p>Completa el formulario y nuestro equipo podrá ponerse en contacto.</p></div>
+<form id="orderForm">
+<label for="name">Nombre o nombre de la clínica *</label><input id="name" name="name" maxlength="100" required>
+<label for="phone">Teléfono de contacto *</label><input id="phone" name="phone" maxlength="40" required>
+<label for="customerType">Tipo de cliente *</label><select id="customerType"><option>Paciente</option><option>Clínica dental</option><option>Odontólogo</option></select>
+<label for="service">Servicio solicitado *</label><select id="service"><option>Corona dental</option><option>Prótesis removible</option><option>Puente dental</option><option>Prótesis sobre implante</option><option>Reparación</option><option>Otro</option></select>
+<label for="details">Mensaje</label><textarea id="details" maxlength="1000" placeholder="Describe brevemente tu consulta. No incluyas datos médicos ni información clínica identificable."></textarea>
+<p class="notice">Este formulario es para consultas comerciales. No envíes radiografías, historiales médicos, datos de pacientes ni otra información clínica sensible.</p>
+<button class="btn" id="sendOrder" type="submit">Enviar solicitud</button><p id="formMessage" class="status" role="status"></p>
+</form></section>
+<section class="admin-wrap" id="administracion"><div class="heading"><h2>Administración</h2><p>Acceso exclusivo para el equipo de Dental Rosse.</p></div>
+<div class="admin-panel">
+<div id="loginBox"><form id="loginForm"><label for="username">Usuario</label><input id="username" autocomplete="username" required><label for="password">Contraseña</label><input id="password" type="password" autocomplete="current-password" required><button class="btn">Iniciar sesión</button><p id="loginMessage" class="status" role="status"></p></form></div>
+<div id="dashboard" class="hidden">
+<p><button class="btn" id="logout">Cerrar sesión</button></p>
+<details open><summary><b>Pedidos recibidos</b></summary><div id="ordersList">Cargando…</div></details>
+<details style="margin-top:15px"><summary><b>Agregar producto</b></summary>
+<form id="productForm"><label>Nombre</label><input id="productName" maxlength="100" required><label>Descripción</label><input id="productDescription" maxlength="500" required><label>Precio en USD (dejar vacío para consultar)</label><input id="productPrice" type="number" min="0" step=".01"><button class="btn">Guardar producto</button><p id="productMessage" class="status"></p></form>
+</details><details style="margin-top:15px"><summary><b>Productos publicados</b></summary><div id="adminProducts"></div></details>
+</div></div></section>
+</main>
+<footer><b>DENTAL ROSSE</b><p>Calidad y precisión en cada sonrisa.</p><p><a style="color:#fff" href="mailto:36rss76@gmail.com">36rss76@gmail.com</a></p><p>© <span id="year"></span> Dental Rosse</p></footer>
+<a class="whatsapp hidden" id="wa" target="_blank" rel="noopener">WhatsApp</a>
+<script src="/app.js" defer></script>
+</body></html>
